@@ -19,6 +19,7 @@ export class AppComponent {
     return Math.trunc(a);
     this.array.forEach((element) => {
       const c = 10;
+      const e;
     });
   }
 }
