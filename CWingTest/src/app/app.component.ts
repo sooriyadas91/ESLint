@@ -12,8 +12,9 @@ export class AppComponent {
   array = []
   title = 'CWingTest';
   getCount() {
+
     var b: any
-    var a: any = this.total / this.page1
+    var a: any =this.total / this.page1
     return Math.trunc(a);
     this.array.forEach(element => {
       var c = 10
