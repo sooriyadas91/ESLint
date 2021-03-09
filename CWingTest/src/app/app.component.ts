@@ -12,6 +12,7 @@ export class AppComponent {
   array = [];
   title = 'CWingTest';
   getCount() {
+    const d = 10;
     let b: any;
 
     const a: any = this.total / this.page1;
